@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <img src="img/logo.PNG" class="brand-img" alt="">
+            <input type="text" id="searchbox" class="search-box" placeholder="Ara">
+            <div class = "nav-items">
+                <img src="img/home.PNG" class="icon" alt="">
+                <img src="img/messenger.PNG" class="icon" alt="">
+                <img src="img/add.PNG" class="icon" alt="">
+                <img src="img/explore.PNG" class="icon" alt="">
+                <img src="img/like.PNG" class="icon" alt="">
+                <div class="icon user-profile"></div>
+            </div>
+        </div>
+    </nav>
+    <!-- Main -->
+    <section class="main">
+    <!-- Wrapper -->
+        <div class="wrapper">
+            <!-- Left Panel -->
+            <div class="left-col">
+                <!-- Storys -->
+                <div class="status-wrapper">
+                    <div class="status-card">
+                        <div class = "profile-pic"><img src="img/pp8.jpg" alt="user_name_1"></div> 
+                        <p class="username">Egemen</p>    
+                    </div>
+                    <div class="status-card">
+                        <div class = "profile-pic"><img src="img/pp2.jpg" alt="user_name_1"></div> 
+                        <p class="username">Nisa</p>    
+                    </div>
+                    <div class="status-card">
+                        <div class = "profile-pic"><img src="img/pp5.jpg" alt="user_name_1"></div> 
+                        <p class="username">Burçin</p>    
+                    </div>
+                    <div class="status-card">
+                        <div class = "profile-pic"><img src="img/pp1.jpg" alt="user_name_1"></div> 
+                        <p class="username">Zehra</p>    
+                    </div>
+                    <div class="status-card">
+                        <div class = "profile-pic"><img src="img/pp7.jpg" alt="user_name_1"></div> 
+                        <p class="username">Bedirhan</p>    
+                    </div>
+                    <div class="status-card">
+                        <div class = "profile-pic"><img src="img/pp4.jpg" alt="user_name_1"></div> 
+                        <p class="username">Zeynep</p>    
+                    </div>
+                    <div class="status-card">
+                        <div class = "profile-pic"><img src="img/pp3.jpg" alt="user_name_1"></div> 
+                        <p class="username">Eda</p>    
+                    </div>
+                    <div class="status-card">
+                        <div class = "profile-pic"><img src="img/pp10.jpg" alt="user_name_1"></div> 
+                        <p class="username">Fatih</p>    
+                    </div>
+                    <div class="status-card">
+                        <div class = "profile-pic"><img src="img/pp9.jpg" alt="user_name_1"></div> 
+                        <p class="username">Shitbox</p>    
+                    </div>
+                </div>
+                <!-- Posts -->
+
+                <!-- Post 1-->
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="img/pp8.jpg" alt=""></div>
+                            <p class="username">Egemen</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <img src="img/post (1).png" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG"class="icon" alt="">
+                            <img src="img/comment.PNG"class="icon" alt="">
+                            <img src="img/send.PNG"class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="">
+                        </div>
+                        <p class="likes">713,102 beğenme</p>
+                        <p class="description"> <span>Egemen</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu eleifend quam, id maximus neque. Duis diam eros, pellentesque vitae convallis sit amet, posuere ut urna. In non eleifend felis. Duis nec aliquam leo, ut viverra libero. </p>
+                        <p class="post-time">32 dakika önce</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" class = "icon" alt="">
+                        <input type="text" class = "comment-box" placeholder="Bir yorum ekleyin"  id="comment">
+                        <button class="comment-btn">paylaş</button>
+                    </div>
+                </div>
+
+                <!-- Post 2-->
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="img/pp2.jpg" alt=""></div>
+                            <p class="username">nisa</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <img src="img/post (3).png" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG"class="icon" alt="">
+                            <img src="img/comment.PNG"class="icon" alt="">
+                            <img src="img/send.PNG"class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="">
+                        </div>
+                        <p class="likes">6,231 beğenme</p>
+                        <p class="description"> <span>Nisa</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu eleifend quam, id maximus neque. Duis diam eros, pellentesque vitae convallis sit amet, posuere ut urna. In non eleifend felis. Duis nec aliquam leo, ut viverra libero. </p>
+                        <p class="post-time">14 dakika önce</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" class = "icon" alt="">
+                        <input type="text" class = "comment-box" placeholder="Bir yorum ekleyin"  id="comment">
+                        <button class="comment-btn">paylaş</button>
+                    </div>
+                </div>
+                
+                <!-- Post 3-->
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="img/pp5.jpg" alt=""></div>
+                            <p class="username">Burçin</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <img src="img/post (4).png" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG"class="icon" alt="">
+                            <img src="img/comment.PNG"class="icon" alt="">
+                            <img src="img/send.PNG"class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="">
+                        </div>
+                        <p class="likes">3,420 beğenme</p>
+                        <p class="description"> <span>Burçin</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu eleifend quam, id maximus neque. Duis diam eros, pellentesque vitae convallis sit amet, posuere ut urna. In non eleifend felis. Duis nec aliquam leo, ut viverra libero. </p>
+                        <p class="post-time">10 dakika önce</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" class = "icon" alt="">
+                        <input type="text" class = "comment-box" placeholder="Bir yorum ekleyin"  id="comment">
+                        <button class="comment-btn">paylaş</button>
+                    </div>
+                </div>
+
+                <!-- Post 4-->
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="img/pp1.jpg" alt=""></div>
+                            <p class="username">Zehra</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <img src="img/post (1).png" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG"class="icon" alt="">
+                            <img src="img/comment.PNG"class="icon" alt="">
+                            <img src="img/send.PNG"class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="">
+                        </div>
+                        <p class="likes">6,312 beğenme</p>
+                        <p class="description"> <span>Zehra</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu eleifend quam, id maximus neque. Duis diam eros, pellentesque vitae convallis sit amet, posuere ut urna. In non eleifend felis. Duis nec aliquam leo, ut viverra libero. </p>
+                        <p class="post-time">10 dakika önce</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" class = "icon" alt="">
+                        <input type="text" class = "comment-box" placeholder="Bir yorum ekleyin"  id="comment">
+                        <button class="comment-btn">paylaş</button>
+                    </div>
+                </div>
+
+                <!-- Post 5-->
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="img/pp7.jpg" alt=""></div>
+                            <p class="username">Bedirhan</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <img src="img/post (2).png" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG"class="icon" alt="">
+                            <img src="img/comment.PNG"class="icon" alt="">
+                            <img src="img/send.PNG"class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="">
+                        </div>
+                        <p class="likes">9,151 beğenme</p>
+                        <p class="description"> <span>Bedirhan</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu eleifend quam, id maximus neque. Duis diam eros, pellentesque vitae convallis sit amet, posuere ut urna. In non eleifend felis. Duis nec aliquam leo, ut viverra libero. </p>
+                        <p class="post-time">2 gün önce</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" class = "icon" alt="">
+                        <input type="text" class = "comment-box" placeholder="Bir yorum ekleyin"  id="comment">
+                        <button class="comment-btn">paylaş</button>
+                    </div>
+                </div>
+
+                <!-- Post 6-->
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="img/pp4.jpg" alt=""></div>
+                            <p class="username">Zeynep</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <img src="img/post (8).png" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG"class="icon" alt="">
+                            <img src="img/comment.PNG"class="icon" alt="">
+                            <img src="img/send.PNG"class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="">
+                        </div>
+                        <p class="likes">32,138 beğenme</p>
+                        <p class="description"> <span>Zeynep</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu eleifend quam, id maximus neque. Duis diam eros, pellentesque vitae convallis sit amet, posuere ut urna. In non eleifend felis. Duis nec aliquam leo, ut viverra libero. </p>
+                        <p class="post-time">2 ay önce</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" class = "icon" alt="">
+                        <input type="text" class = "comment-box" placeholder="Bir yorum ekleyin"  id="comment">
+                        <button class="comment-btn">paylaş</button>
+                    </div>
+                </div>
+
+                <!-- Post 7-->
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="img/pp3.jpg" alt=""></div>
+                            <p class="username">Eda</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <img src="img/post (9).png" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG"class="icon" alt="">
+                            <img src="img/comment.PNG"class="icon" alt="">
+                            <img src="img/send.PNG"class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="">
+                        </div>
+                        <p class="likes">249,231 beğenme</p>
+                        <p class="description"> <span>Eda</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu eleifend quam, id maximus neque. Duis diam eros, pellentesque vitae convallis sit amet, posuere ut urna. In non eleifend felis. Duis nec aliquam leo, ut viverra libero. </p>
+                        <p class="post-time">2 yıl önce</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" class = "icon" alt="">
+                        <input type="text" class = "comment-box" placeholder="Bir yorum ekleyin"  id="comment">
+                        <button class="comment-btn">paylaş</button>
+                    </div>
+                </div>
+
+                <!-- Post 8-->
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="img/pp10.jpg" alt=""></div>
+                            <p class="username">Fatih</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <img src="img/post (7).png" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG"class="icon" alt="">
+                            <img src="img/comment.PNG"class="icon" alt="">
+                            <img src="img/send.PNG"class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="">
+                        </div>
+                        <p class="likes">11,321 beğenme</p>
+                        <p class="description"> <span>Fatih</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu eleifend quam, id maximus neque. Duis diam eros, pellentesque vitae convallis sit amet, posuere ut urna. In non eleifend felis. Duis nec aliquam leo, ut viverra libero. </p>
+                        <p class="post-time">2 yıl önce</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" class = "icon" alt="">
+                        <input type="text" class = "comment-box" placeholder="Bir yorum ekleyin"  id="comment">
+                        <button class="comment-btn">paylaş</button>
+                    </div>
+                </div>
+
+                <!-- Post 9-->
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="img/pp9.jpg" alt=""></div>
+                            <p class="username">Shitbox</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <img src="img/post (6).png" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG"class="icon" alt="">
+                            <img src="img/comment.PNG"class="icon" alt="">
+                            <img src="img/send.PNG"class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="">
+                        </div>
+                        <p class="likes">88,141 beğenme</p>
+                        <p class="description"> <span>Shitbox</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu eleifend quam, id maximus neque. Duis diam eros, pellentesque vitae convallis sit amet, posuere ut urna. In non eleifend felis. Duis nec aliquam leo, ut viverra libero. </p>
+                        <p class="post-time">10 ay önce</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" class = "icon" alt="">
+                        <input type="text" class = "comment-box" placeholder="Bir yorum ekleyin"  id="comment">
+                        <button class="comment-btn">paylaş</button>
+                    </div>
+                </div>
+            </div>                        
+            <!-- Right Panel -->
+            <div class="right-col">
+                <!-- Your Account -->
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/profile-pic-me.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username-right">orhankilicc_</p>
+                        <p class="sub-text">Orhan</p>
+                    </div>
+                    <button class="action-btn">Geçiş yap</button>
+                </div>
+
+                <p class="rec-title">Senin İçin Öneriliyor</p>
+
+                <!-- Recommended 1 -->
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/rec1.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username-right">SlayeasLea Martinez</p>
+                        <p class="sub-text">Lea Martinez</p>
+
+                    </div>
+                    <button class="action-btn">Takip et</button>
+                </div>
+
+                <!-- Recommended 2 -->
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/rec2.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username-right">Büşra</p>
+                        <p class="sub-text">Büşra Kılınç</p>
+                    </div>
+                    <button class="action-btn">Takip et</button>
+                </div>
+
+                <!-- Recommended 3 -->
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/rec3.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username-right">Şehinşah</p>  
+                        <p class="sub-text">Ufuk Yıkılmaz</p>
+                    </div>
+                    <button class="action-btn">Takip et</button>
+                </div>
+
+                <!-- Recommended 4 -->
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/rec4.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username-right">Webtekno</p>
+                        <p class="sub-text">Web Tekno</p>
+                    </div>
+                    <button class="action-btn">Takip et</button>
+                </div>
+
+                <!-- Recommended 5 -->
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/rec5.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username-right">Lili</p>    
+                        <p class="sub-text">Lili Reinhart</p>
+                    </div>
+                    <button class="action-btn">Takip et</button>
+                </div>
+                <!-- Creator -->
+                <p class="creator">© 2022 Instagram UI from Orhan Kılıç</p>
+            </div>
+        </div>
+    </section>
+   
+    
+</body>
+</html>
